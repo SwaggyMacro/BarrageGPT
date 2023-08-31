@@ -26,5 +26,5 @@
 2. Unfortunately, you cannot mute the microphone while streaming from a mobile device.
 3. I have made several attempts at live-streaming. My initial plan was to showcase my personal PC's screen (which was running the project) by using a remote tool. However, TikTok unjustly and inexplicably banned my live stream on two separate occasions.
 
-So, that's why there is no `TikTok(Douyin)` screenshots in this project.  
+So, that's why there are no `TikTok(Douyin)` screenshots in this project.  
 **Fuck the TikTok(Douyin)!**

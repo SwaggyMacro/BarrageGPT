@@ -1,0 +1,1056 @@
+{
+    "common": {
+        "method": "WebcastGiftMessage",
+        "msgId": "7210094417234220067",
+        "roomId": "7210091933195176763",
+        "createTime": "1678730981",
+        "monitor": 0,
+        "isShowMsg": true,
+        "describe": "只为你一人:送给主播 1个大啤酒",
+        "displayText": {
+            "key": "webcast_aweme_gift_send_message",
+            "defaultPattern": "{0:user} 送出{1:gift} {2:string}",
+            "defaultFormat": {
+                "color": "#ffface15",
+                "bold": false,
+                "italic": false,
+                "weight": 400,
+                "italicAngle": 0,
+                "fontSize": 0,
+                "useHeighLightColor": false,
+                "useRemoteClor": false
+            },
+            "piecesList": [{
+                    "type": 11,
+                    "format": {
+                        "color": "#ff8ce7ff",
+                        "bold": false,
+                        "italic": false,
+                        "weight": 400,
+                        "italicAngle": 0,
+                        "fontSize": 0,
+                        "useHeighLightColor": false,
+                        "useRemoteClor": false
+                    },
+                    "valueRef": "",
+                    "stringValue": "",
+                    "userValue": {
+                        "user": {
+                            "id": "111615092170",
+                            "shortId": "0",
+                            "nickname": "只为你一人",
+                            "gender": 0,
+                            "signature": "",
+                            "level": 0,
+                            "birthday": "0",
+                            "telephone": "",
+                            "verified": false,
+                            "experience": 0,
+                            "city": "",
+                            "status": 0,
+                            "createTime": "0",
+                            "modifyTime": "0",
+                            "secret": 0,
+                            "shareQrcodeUri": "",
+                            "incomeSharePercent": 0,
+                            "badgeImageListList": [],
+                            "specialId": "",
+                            "realTimeIconsList": [],
+                            "newRealTimeIconsList": [],
+                            "topVipNo": "0",
+                            "payScore": "0",
+                            "ticketCount": "0",
+                            "linkMicStats": 0,
+                            "displayId": "7.21636287",
+                            "withCommercePermission": false,
+                            "withFusionShopEntry": false,
+                            "totalRechargeDiamondCount": "0",
+                            "verifiedContent": "",
+                            "topFansList": [],
+                            "secUid": "MS4wLjABAAAAuB9Ov5QwnsRgOCiSX_0HrdFfpGKg0TTK0CmXCp_qI5k",
+                            "userRole": 0,
+                            "authorizationInfo": 0,
+                            "adversaryAuthorizationInfo": 0,
+                            "mediaBadgeImageListList": [],
+                            "adversaryUserStatus": 0,
+                            "commerceWebcastConfigIdsList": [],
+                            "badgeImageListV2List": [{
+                                "urlListList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "uri": "webcast/anchor_fans_tag_v2.png",
+                                "height": "0",
+                                "width": "0",
+                                "avgColor": "",
+                                "imageType": 35,
+                                "openWebUrl": "",
+                                "content": {
+                                    "name": "",
+                                    "fontColor": "",
+                                    "level": "0",
+                                    "alternativeText": "粉丝勋章"
+                                },
+                                "isAnimated": false,
+                                "flexSettingListList": [],
+                                "textSettingListList": [],
+                                "urlList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "flexSettingList": [],
+                                "textSettingList": []
+                            }],
+                            "locationCity": "",
+                            "remarkName": "",
+                            "mysteryMan": 1,
+                            "webRid": "",
+                            "desensitizedNickname": "只为你一人",
+                            "isAnonymous": false,
+                            "consumeDiamondLevel": 0,
+                            "webcastUid": "MS4wLjPBYtYzGuv9BCMc31sLTzoDc1gZBB2hvapxqui3B8-JL2NQZ25xiDjRHT4KlyZoxH4",
+                            "allowBeLocated": false,
+                            "allowFindByContacts": false,
+                            "allowOthersDownloadVideo": false,
+                            "allowOthersDownloadWhenSharingVideo": false,
+                            "allowShareShowProfile": false,
+                            "allowShowInGossip": false,
+                            "allowShowMyAction": false,
+                            "allowStrangeComment": false,
+                            "allowUnfollowerComment": false,
+                            "allowUseLinkmic": false,
+                            "bgImgUrl": "",
+                            "birthdayDescription": "",
+                            "birthdayValid": false,
+                            "blockStatus": 0,
+                            "commentRestrict": 0,
+                            "constellation": "",
+                            "disableIchat": 0,
+                            "enableIchatImg": "0",
+                            "exp": 0,
+                            "fanTicketCount": "0",
+                            "foldStrangerChat": false,
+                            "followStatus": "0",
+                            "hotsoonVerified": false,
+                            "hotsoonVerifiedReason": "",
+                            "ichatRestrictType": 0,
+                            "idStr": "",
+                            "isFollower": false,
+                            "isFollowing": false,
+                            "needProfileGuide": false,
+                            "payScores": "0",
+                            "pushCommentStatus": false,
+                            "pushDigg": false,
+                            "pushFollow": false,
+                            "pushFriendAction": false,
+                            "pushIchat": false,
+                            "pushStatus": false,
+                            "pushVideoPost": false,
+                            "pushVideoRecommend": false,
+                            "verifiedMobile": false,
+                            "verifiedReason": "",
+                            "withCarManagementPermission": false,
+                            "ageRange": 0,
+                            "watchDurationMonth": "0",
+                            "badgeImageList": [],
+                            "realTimeIcons": [],
+                            "newRealTimeIcons": [],
+                            "topFans": [],
+                            "mediaBadgeImageList": [],
+                            "commerceWebcastConfigIds": [],
+                            "badgeImageListV2": [{
+                                "urlListList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "uri": "webcast/anchor_fans_tag_v2.png",
+                                "height": "0",
+                                "width": "0",
+                                "avgColor": "",
+                                "imageType": 35,
+                                "openWebUrl": "",
+                                "content": {
+                                    "name": "",
+                                    "fontColor": "",
+                                    "level": "0",
+                                    "alternativeText": "粉丝勋章"
+                                },
+                                "isAnimated": false,
+                                "flexSettingListList": [],
+                                "textSettingListList": [],
+                                "urlList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "flexSettingList": [],
+                                "textSettingList": []
+                            }]
+                        },
+                        "withColon": false
+                    }
+                },
+                {
+                    "type": 12,
+                    "valueRef": "",
+                    "stringValue": "",
+                    "giftValue": {
+                        "giftId": "2002",
+                        "nameRef": {
+                            "key": "live_gift_2002",
+                            "defaultPattern": "大啤酒"
+                        }
+                    }
+                },
+                {
+                    "type": 1,
+                    "format": {
+                        "color": "#ffface15",
+                        "bold": false,
+                        "italic": false,
+                        "weight": 400,
+                        "italicAngle": 0,
+                        "fontSize": 0,
+                        "useHeighLightColor": false,
+                        "useRemoteClor": false
+                    },
+                    "valueRef": "",
+                    "stringValue": "x1"
+                }
+            ],
+            "pieces": [{
+                    "type": 11,
+                    "format": {
+                        "color": "#ff8ce7ff",
+                        "bold": false,
+                        "italic": false,
+                        "weight": 400,
+                        "italicAngle": 0,
+                        "fontSize": 0,
+                        "useHeighLightColor": false,
+                        "useRemoteClor": false
+                    },
+                    "valueRef": "",
+                    "stringValue": "",
+                    "userValue": {
+                        "user": {
+                            "id": "111615092170",
+                            "shortId": "0",
+                            "nickname": "只为你一人",
+                            "gender": 0,
+                            "signature": "",
+                            "level": 0,
+                            "birthday": "0",
+                            "telephone": "",
+                            "verified": false,
+                            "experience": 0,
+                            "city": "",
+                            "status": 0,
+                            "createTime": "0",
+                            "modifyTime": "0",
+                            "secret": 0,
+                            "shareQrcodeUri": "",
+                            "incomeSharePercent": 0,
+                            "badgeImageListList": [],
+                            "specialId": "",
+                            "realTimeIconsList": [],
+                            "newRealTimeIconsList": [],
+                            "topVipNo": "0",
+                            "payScore": "0",
+                            "ticketCount": "0",
+                            "linkMicStats": 0,
+                            "displayId": "7.21636287",
+                            "withCommercePermission": false,
+                            "withFusionShopEntry": false,
+                            "totalRechargeDiamondCount": "0",
+                            "verifiedContent": "",
+                            "topFansList": [],
+                            "secUid": "MS4wLjABAAAAuB9Ov5QwnsRgOCiSX_0HrdFfpGKg0TTK0CmXCp_qI5k",
+                            "userRole": 0,
+                            "authorizationInfo": 0,
+                            "adversaryAuthorizationInfo": 0,
+                            "mediaBadgeImageListList": [],
+                            "adversaryUserStatus": 0,
+                            "commerceWebcastConfigIdsList": [],
+                            "badgeImageListV2List": [{
+                                "urlListList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "uri": "webcast/anchor_fans_tag_v2.png",
+                                "height": "0",
+                                "width": "0",
+                                "avgColor": "",
+                                "imageType": 35,
+                                "openWebUrl": "",
+                                "content": {
+                                    "name": "",
+                                    "fontColor": "",
+                                    "level": "0",
+                                    "alternativeText": "粉丝勋章"
+                                },
+                                "isAnimated": false,
+                                "flexSettingListList": [],
+                                "textSettingListList": [],
+                                "urlList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "flexSettingList": [],
+                                "textSettingList": []
+                            }],
+                            "locationCity": "",
+                            "remarkName": "",
+                            "mysteryMan": 1,
+                            "webRid": "",
+                            "desensitizedNickname": "只为你一人",
+                            "isAnonymous": false,
+                            "consumeDiamondLevel": 0,
+                            "webcastUid": "MS4wLjPBYtYzGuv9BCMc31sLTzoDc1gZBB2hvapxqui3B8-JL2NQZ25xiDjRHT4KlyZoxH4",
+                            "allowBeLocated": false,
+                            "allowFindByContacts": false,
+                            "allowOthersDownloadVideo": false,
+                            "allowOthersDownloadWhenSharingVideo": false,
+                            "allowShareShowProfile": false,
+                            "allowShowInGossip": false,
+                            "allowShowMyAction": false,
+                            "allowStrangeComment": false,
+                            "allowUnfollowerComment": false,
+                            "allowUseLinkmic": false,
+                            "bgImgUrl": "",
+                            "birthdayDescription": "",
+                            "birthdayValid": false,
+                            "blockStatus": 0,
+                            "commentRestrict": 0,
+                            "constellation": "",
+                            "disableIchat": 0,
+                            "enableIchatImg": "0",
+                            "exp": 0,
+                            "fanTicketCount": "0",
+                            "foldStrangerChat": false,
+                            "followStatus": "0",
+                            "hotsoonVerified": false,
+                            "hotsoonVerifiedReason": "",
+                            "ichatRestrictType": 0,
+                            "idStr": "",
+                            "isFollower": false,
+                            "isFollowing": false,
+                            "needProfileGuide": false,
+                            "payScores": "0",
+                            "pushCommentStatus": false,
+                            "pushDigg": false,
+                            "pushFollow": false,
+                            "pushFriendAction": false,
+                            "pushIchat": false,
+                            "pushStatus": false,
+                            "pushVideoPost": false,
+                            "pushVideoRecommend": false,
+                            "verifiedMobile": false,
+                            "verifiedReason": "",
+                            "withCarManagementPermission": false,
+                            "ageRange": 0,
+                            "watchDurationMonth": "0",
+                            "badgeImageList": [],
+                            "realTimeIcons": [],
+                            "newRealTimeIcons": [],
+                            "topFans": [],
+                            "mediaBadgeImageList": [],
+                            "commerceWebcastConfigIds": [],
+                            "badgeImageListV2": [{
+                                "urlListList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "uri": "webcast/anchor_fans_tag_v2.png",
+                                "height": "0",
+                                "width": "0",
+                                "avgColor": "",
+                                "imageType": 35,
+                                "openWebUrl": "",
+                                "content": {
+                                    "name": "",
+                                    "fontColor": "",
+                                    "level": "0",
+                                    "alternativeText": "粉丝勋章"
+                                },
+                                "isAnimated": false,
+                                "flexSettingListList": [],
+                                "textSettingListList": [],
+                                "urlList": [
+                                    "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                                    "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+                                ],
+                                "flexSettingList": [],
+                                "textSettingList": []
+                            }]
+                        },
+                        "withColon": false
+                    }
+                },
+                {
+                    "type": 12,
+                    "valueRef": "",
+                    "stringValue": "",
+                    "giftValue": {
+                        "giftId": "2002",
+                        "nameRef": {
+                            "key": "live_gift_2002",
+                            "defaultPattern": "大啤酒"
+                        }
+                    }
+                },
+                {
+                    "type": 1,
+                    "format": {
+                        "color": "#ffface15",
+                        "bold": false,
+                        "italic": false,
+                        "weight": 400,
+                        "italicAngle": 0,
+                        "fontSize": 0,
+                        "useHeighLightColor": false,
+                        "useRemoteClor": false
+                    },
+                    "valueRef": "",
+                    "stringValue": "x1"
+                }
+            ]
+        },
+        "foldType": "0",
+        "anchorFoldType": "0",
+        "priorityScore": "31000",
+        "logId": "",
+        "msgProcessFilterK": "",
+        "msgProcessFilterV": "",
+        "anchorFoldTypeV2": "0",
+        "processAtSeiTimeMs": "0",
+        "randomDispatchMs": "0",
+        "isDispatch": false,
+        "channelId": "0",
+        "diffSei2absSecond": "0",
+        "anchorFoldDuration": "0",
+        "appId": "2329"
+    },
+    "giftId": "2002",
+    "fanTicketCount": "0",
+    "groupCount": "1",
+    "repeatCount": "1",
+    "comboCount": "1",
+    "user": {
+        "id": "111615092170",
+        "shortId": "2135312078",
+        "nickname": "只为你一人",
+        "gender": 1,
+        "signature": "",
+        "level": 0,
+        "birthday": "0",
+        "telephone": "",
+        "avatarThumb": {
+            "urlListList": [
+                "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334",
+                "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334",
+                "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334"
+            ],
+            "uri": "100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b",
+            "height": "0",
+            "width": "0",
+            "avgColor": "",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334",
+                "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334",
+                "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2cd7200018f4988f3234b.jpeg?from=3067671334"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "verified": false,
+        "experience": 0,
+        "city": "",
+        "status": 0,
+        "createTime": "0",
+        "modifyTime": "0",
+        "secret": 0,
+        "shareQrcodeUri": "",
+        "incomeSharePercent": 0,
+        "badgeImageListList": [],
+        "followInfo": {
+            "followingCount": "545",
+            "followerCount": "101",
+            "followStatus": "0",
+            "pushStatus": "0",
+            "remarkName": "",
+            "followerCountStr": "101",
+            "followingCountStr": "545"
+        },
+        "payGrade": {
+            "totalDiamondCount": "0",
+            "name": "",
+            "nextName": "",
+            "level": "0",
+            "nextDiamond": "0",
+            "nowDiamond": "0",
+            "thisGradeMinDiamond": "0",
+            "thisGradeMaxDiamond": "0",
+            "payDiamondBak": "0",
+            "gradeDescribe": "",
+            "gradeIconListList": [],
+            "screenChatType": "0",
+            "upgradeNeedConsume": "0",
+            "nextPrivileges": "",
+            "score": "0",
+            "gradeBanner": "",
+            "gradeIconList": []
+        },
+        "fansClub": {
+            "data": {
+                "clubName": "",
+                "level": 0,
+                "userFansClubStatus": 0,
+                "badge": {
+                    "iconsMap": [
+                        [
+                            0,
+                            {
+                                "urlListList": [],
+                                "uri": "",
+                                "height": "0",
+                                "width": "0",
+                                "avgColor": "",
+                                "imageType": 0,
+                                "openWebUrl": "",
+                                "isAnimated": false,
+                                "flexSettingListList": [],
+                                "textSettingListList": [],
+                                "urlList": [],
+                                "flexSettingList": [],
+                                "textSettingList": []
+                            }
+                        ]
+                    ],
+                    "title": ""
+                },
+                "availableGiftIdsList": [],
+                "anchorId": "0",
+                "badgeType": 0,
+                "availableGiftIds": []
+            },
+            "preferDataMap": []
+        },
+        "specialId": "",
+        "realTimeIconsList": [],
+        "newRealTimeIconsList": [],
+        "topVipNo": "0",
+        "userAttr": {
+            "isMuted": false,
+            "isAdmin": false,
+            "isSuperAdmin": false,
+            "adminPrivilegesList": [],
+            "adminPrivileges": []
+        },
+        "payScore": "0",
+        "ticketCount": "0",
+        "linkMicStats": 0,
+        "displayId": "7.21636287",
+        "withCommercePermission": false,
+        "withFusionShopEntry": false,
+        "totalRechargeDiamondCount": "0",
+        "verifiedContent": "",
+        "topFansList": [],
+        "secUid": "MS4wLjABAAAAuB9Ov5QwnsRgOCiSX_0HrdFfpGKg0TTK0CmXCp_qI5k",
+        "userRole": 0,
+        "authorizationInfo": 3,
+        "adversaryAuthorizationInfo": 0,
+        "mediaBadgeImageListList": [],
+        "adversaryUserStatus": 0,
+        "commerceWebcastConfigIdsList": [],
+        "badgeImageListV2List": [{
+            "urlListList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+            ],
+            "uri": "webcast/anchor_fans_tag_v2.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "",
+            "imageType": 35,
+            "openWebUrl": "",
+            "content": {
+                "name": "",
+                "fontColor": "",
+                "level": "0",
+                "alternativeText": "粉丝勋章"
+            },
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        }],
+        "locationCity": "",
+        "remarkName": "",
+        "mysteryMan": 1,
+        "webRid": "",
+        "desensitizedNickname": "只为你一人",
+        "isAnonymous": false,
+        "consumeDiamondLevel": 0,
+        "webcastUid": "MS4wLjPBYtYzGuv9BCMc31sLTzoDc1gZBB2hvapxqui3B8-JL2NQZ25xiDjRHT4KlyZoxH4",
+        "allowBeLocated": false,
+        "allowFindByContacts": false,
+        "allowOthersDownloadVideo": false,
+        "allowOthersDownloadWhenSharingVideo": false,
+        "allowShareShowProfile": false,
+        "allowShowInGossip": false,
+        "allowShowMyAction": false,
+        "allowStrangeComment": false,
+        "allowUnfollowerComment": false,
+        "allowUseLinkmic": false,
+        "bgImgUrl": "",
+        "birthdayDescription": "",
+        "birthdayValid": false,
+        "blockStatus": 0,
+        "commentRestrict": 0,
+        "constellation": "",
+        "disableIchat": 0,
+        "enableIchatImg": "0",
+        "exp": 0,
+        "fanTicketCount": "0",
+        "foldStrangerChat": false,
+        "followStatus": "0",
+        "hotsoonVerified": false,
+        "hotsoonVerifiedReason": "",
+        "ichatRestrictType": 0,
+        "idStr": "",
+        "isFollower": false,
+        "isFollowing": false,
+        "needProfileGuide": false,
+        "payScores": "0",
+        "pushCommentStatus": false,
+        "pushDigg": false,
+        "pushFollow": false,
+        "pushFriendAction": false,
+        "pushIchat": false,
+        "pushStatus": false,
+        "pushVideoPost": false,
+        "pushVideoRecommend": false,
+        "verifiedMobile": false,
+        "verifiedReason": "",
+        "withCarManagementPermission": false,
+        "ageRange": 0,
+        "watchDurationMonth": "0",
+        "badgeImageList": [],
+        "realTimeIcons": [],
+        "newRealTimeIcons": [],
+        "topFans": [],
+        "mediaBadgeImageList": [],
+        "commerceWebcastConfigIds": [],
+        "badgeImageListV2": [{
+            "urlListList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+            ],
+            "uri": "webcast/anchor_fans_tag_v2.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "",
+            "imageType": 35,
+            "openWebUrl": "",
+            "content": {
+                "name": "",
+                "fontColor": "",
+                "level": "0",
+                "alternativeText": "粉丝勋章"
+            },
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/anchor_fans_tag_v2.png~tplv-obj.image"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        }]
+    },
+    "repeatEnd": 1,
+    "groupId": "1678730978",
+    "incomeTaskgifts": "0",
+    "roomFanTicketCount": "0",
+    "gift": {
+        "image": {
+            "urlListList": [
+                "http://p3-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png",
+                "http://p6-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png"
+            ],
+            "uri": "webcast/a24b3cc863742fd4bc3de0f53dac4487.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#FAE6DC",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p3-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png",
+                "http://p6-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "describe": "送了一杯大啤酒",
+        "notify": false,
+        "duration": "0",
+        "id": "2002",
+        "forLinkmic": true,
+        "doodle": false,
+        "forFansclub": false,
+        "combo": true,
+        "type": 1,
+        "diamondCount": 2,
+        "isDisplayedOnPanel": true,
+        "primaryEffectId": "0",
+        "name": "大啤酒",
+        "region": "",
+        "manual": "",
+        "forCustom": false,
+        "specialEffectsMap": [
+            [
+                "99",
+                2481
+            ]
+        ],
+        "icon": {
+            "urlListList": [
+                "http://p3-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png",
+                "http://p6-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png"
+            ],
+            "uri": "webcast/a24b3cc863742fd4bc3de0f53dac4487.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#CEE5EB",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p3-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png",
+                "http://p6-webcast.douyinpic.com/img/webcast/a24b3cc863742fd4bc3de0f53dac4487.png~tplv-obj.png"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "actionType": 0,
+        "watermelonSeeds": 0,
+        "goldEffect": "",
+        "subsList": [],
+        "goldenBeans": "0",
+        "honorLevel": "0",
+        "itemType": 1,
+        "schemeUrl": "",
+        "eventName": "",
+        "nobleLevel": "0",
+        "guideUrl": "",
+        "punishMedicine": false,
+        "forPortal": false,
+        "businessText": "",
+        "cnyGift": false,
+        "appId": "1128",
+        "vipLevel": "0",
+        "isGray": false,
+        "graySchemeUrl": "",
+        "giftScene": "1541",
+        "triggerWordsList": [
+            "干杯",
+            "干一杯",
+            "交朋友",
+            "碰杯",
+            "喝一杯",
+            "必胜",
+            "团结"
+        ],
+        "giftBuffInfosList": [],
+        "forFirstRecharge": false,
+        "afterSendAction": 0,
+        "giftOfflineTime": "0",
+        "topBarText": "",
+        "bannerSchemeUrl": "",
+        "isLocked": false,
+        "reqExtraType": "0",
+        "assetIdsList": [
+            "0"
+        ],
+        "giftPreviewInfo": {
+            "lockStatus": "0",
+            "clientBlockUseSchemeUrl": false,
+            "blockSchemeUrl": "",
+            "clientCheckLeftDiamond": true,
+            "blockToast": ""
+        },
+        "giftTip": {
+            "displayText": {
+                "key": "",
+                "defaultPattern": "",
+                "piecesList": [],
+                "pieces": []
+            },
+            "backgroundColor": "#CC595C66"
+        },
+        "needSweepLightCount": 0,
+        "groupInfoList": [{
+                "groupCount": 10,
+                "groupText": "完美"
+            },
+            {
+                "groupCount": 66,
+                "groupText": "6的飞起"
+            },
+            {
+                "groupCount": 188,
+                "groupText": "要抱抱"
+            },
+            {
+                "groupCount": 520,
+                "groupText": "为爱应援"
+            },
+            {
+                "groupCount": 999,
+                "groupText": "钟爱于你"
+            },
+            {
+                "groupCount": 1314,
+                "groupText": "Dou是你"
+            }
+        ],
+        "mysteryShopStatus": 0,
+        "optionalAssetIdsList": [],
+        "disableWishList": false,
+        "trayDynamicImgFlippable": false,
+        "picoShowAction": "0",
+        "selectedDynamicEffect": "0",
+        "subs": [],
+        "triggerWords": [
+            "干杯",
+            "干一杯",
+            "交朋友",
+            "碰杯",
+            "喝一杯",
+            "必胜",
+            "团结"
+        ],
+        "giftBuffInfos": [],
+        "assetIds": [
+            "0"
+        ],
+        "groupInfo": [{
+                "groupCount": 10,
+                "groupText": "完美"
+            },
+            {
+                "groupCount": 66,
+                "groupText": "6的飞起"
+            },
+            {
+                "groupCount": 188,
+                "groupText": "要抱抱"
+            },
+            {
+                "groupCount": 520,
+                "groupText": "为爱应援"
+            },
+            {
+                "groupCount": 999,
+                "groupText": "钟爱于你"
+            },
+            {
+                "groupCount": 1314,
+                "groupText": "Dou是你"
+            }
+        ],
+        "optionalAssetIds": []
+    },
+    "logId": "",
+    "sendType": "1",
+    "publicAreaCommon": {
+        "userLabel": {
+            "urlListList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/userlabel_regular_watch.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/userlabel_regular_watch.png~tplv-obj.image"
+            ],
+            "uri": "webcast/userlabel_regular_watch.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#7A6053",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/userlabel_regular_watch.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/userlabel_regular_watch.png~tplv-obj.image"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "userConsumeInRoom": "0",
+        "userSendGiftCntInRoom": "0",
+        "individualPriority": "0",
+        "individualStrategyResultMap": []
+    },
+    "trayDisplayText": {
+        "key": "webcast_aweme_tray_message_to_anchor",
+        "defaultPattern": "送{0}",
+        "defaultFormat": {
+            "color": "#B3FFFFFF",
+            "bold": false,
+            "italic": false,
+            "weight": 400,
+            "italicAngle": 0,
+            "fontSize": 0,
+            "useHeighLightColor": false,
+            "useRemoteClor": true
+        },
+        "piecesList": [{
+            "type": 1,
+            "format": {
+                "color": "#B3FFFFFF",
+                "bold": false,
+                "italic": false,
+                "weight": 400,
+                "italicAngle": 0,
+                "fontSize": 0,
+                "useHeighLightColor": false,
+                "useRemoteClor": true
+            },
+            "valueRef": "",
+            "stringValue": "大啤酒"
+        }],
+        "pieces": [{
+            "type": 1,
+            "format": {
+                "color": "#B3FFFFFF",
+                "bold": false,
+                "italic": false,
+                "weight": 400,
+                "italicAngle": 0,
+                "fontSize": 0,
+                "useHeighLightColor": false,
+                "useRemoteClor": true
+            },
+            "valueRef": "",
+            "stringValue": "大啤酒"
+        }]
+    },
+    "bannedDisplayEffects": "0",
+    "trayInfo": {
+        "trayBaseImg": {
+            "urlListList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/baeee12ec1b35cf2a7f2a20d910b13d4.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/baeee12ec1b35cf2a7f2a20d910b13d4.png~tplv-obj.image"
+            ],
+            "uri": "webcast/baeee12ec1b35cf2a7f2a20d910b13d4.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#A37C7C",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/baeee12ec1b35cf2a7f2a20d910b13d4.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/baeee12ec1b35cf2a7f2a20d910b13d4.png~tplv-obj.image"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "trayLevel": "1",
+        "trayDynamicImg": {
+            "urlListList": [],
+            "uri": "",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#607A53",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "traySchemaUrl": "",
+        "trayType": 0,
+        "trayBaseImgV2": {
+            "urlListList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/tray_base_image1.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/tray_base_image1.png~tplv-obj.image"
+            ],
+            "uri": "webcast/tray_base_image1.png",
+            "height": "0",
+            "width": "0",
+            "avgColor": "#A3967C",
+            "imageType": 0,
+            "openWebUrl": "",
+            "isAnimated": false,
+            "flexSettingListList": [],
+            "textSettingListList": [],
+            "urlList": [
+                "http://p6-webcast.douyinpic.com/img/webcast/tray_base_image1.png~tplv-obj.image",
+                "http://p3-webcast.douyinpic.com/img/webcast/tray_base_image1.png~tplv-obj.image"
+            ],
+            "flexSettingList": [],
+            "textSettingList": []
+        },
+        "useHighLayer": true,
+        "duration": "2000",
+        "toast": "",
+        "traySlideRate": 0,
+        "trayPostEffect": {
+            "postEffectImg": {
+                "urlListList": [],
+                "uri": "",
+                "height": "0",
+                "width": "0",
+                "avgColor": "#EBD8CE",
+                "imageType": 0,
+                "openWebUrl": "",
+                "isAnimated": false,
+                "flexSettingListList": [],
+                "textSettingListList": [],
+                "urlList": [],
+                "flexSettingList": [],
+                "textSettingList": []
+            },
+            "postSchema": "",
+            "postDuration": "0",
+            "postEffectSource": 0
+        },
+        "originGiftId": "0",
+        "buffLevel": "0",
+        "toolbarCardName": ""
+    },
+    "displayForSelf": false,
+    "interactGiftInfo": "",
+    "diyItemInfo": "",
+    "minAssetSetList": [],
+    "totalCount": "0",
+    "clientGiftSource": 1,
+    "toUserIdsList": [],
+    "sendTime": "0",
+    "forceDisplayEffects": "0",
+    "traceId": "1116150921701678730977721509",
+    "effectDisplayTs": "0",
+    "minAssetSet": [],
+    "toUserIds": []
+}

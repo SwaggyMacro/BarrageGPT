@@ -1,0 +1,16 @@
+{
+    "name": "dy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node ./app.js",
+        "test": "node ./test/index.js"
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ws": "^8.12.1"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "huya-danmu",
+  "version": "2.0.3",
+  "description": "huya danmu module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BacooTang/huya-danmu.git"
+  },
+  "keywords": [
+    "huya",
+    "danmu"
+  ],
+  "author": "BacooTang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BacooTang/huya-danmu/issues"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "huya-danmu": "^2.0.3",
+    "md5": "^2.2.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "socks-proxy-agent": "^3.0.1",
+    "to-arraybuffer": "^1.0.1",
+    "ws": "^4.0.0"
+  },
+  "homepage": "https://github.com/BacooTang/huya-danmu#readme"
+}

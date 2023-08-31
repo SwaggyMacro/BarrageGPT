@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>上传txt文件并读取第32行内容</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<script>
+		var arr = [];
+
+		function readContent(file) {
+			var reader = new FileReader();
+			reader.onload = function (e) {
+				var lines = e.target.result.split('\n');
+				var line32 = lines[31].match(/[0-9]+(\.[0-9]+)?/g);
+				if (line32 != null) {
+					for (var i = 0; i < line32.length; i++) {
+						arr.push(parseFloat(line32[i]));
+					}
+				}
+				updateNumberList();
+			};
+			reader.readAsText(file);
+		}
+
+		function handleFiles() {
+			var files = document.getElementById("fileUpload").files;
+			for (var i = 0; i < files.length; i++) {
+				if (files[i].type === "text/plain") {
+					readContent(files[i]);
+				} else {
+					alert("请选择txt文件");
+				}
+			}
+		}
+
+		function updateNumberList() {
+			var numberList = document.getElementById("numberList");
+			numberList.innerHTML = "";
+			for (var i = 0; i < arr.length; i++) {
+				var li = document.createElement("li");
+				li.innerText = arr[i];
+				numberList.appendChild(li);
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<input type="file" id="fileUpload" multiple onchange="handleFiles()">
+	<p>已读取的数字：</p>
+	<ul id="numberList"></ul>
+	<script>
+		updateNumberList();
+	</script>
+</body>
+
+</html>

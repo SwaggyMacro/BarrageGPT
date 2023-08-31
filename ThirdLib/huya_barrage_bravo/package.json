@@ -1,0 +1,16 @@
+{
+	"name": "huya_danmu",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node ./app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"ws": "^7.5.1"
+	}
+}

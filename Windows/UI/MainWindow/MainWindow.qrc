@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>../../../Resources/Images/bilibili_default_avatar.jpg</file>
+    <file>../../../Resources/Images/huya_default_avatar.png</file>
+    <file>../../../Resources/Images/tiktok_default_avatar.jfif</file>
+    <file>../../../Resources/Images/ai_logo.png</file>
+    <file>../../../Resources/Images/download.png</file>
+    <file>../../../Resources/Images/ChatGPT_logo.svg.png</file>
+  </qresource>
+</RCC>

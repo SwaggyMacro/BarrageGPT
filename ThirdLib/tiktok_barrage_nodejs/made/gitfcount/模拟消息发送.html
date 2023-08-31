@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>web socket test</title>
+    <style>
+        #ul {
+            height: 500px;
+            font-size: 12px;
+            overflow: auto;
+            background-color: #ddd;
+            list-style: none;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 10px;
+            font-size: 14px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div>
+        <span>昵称</span>
+        <input value="jiansen" id="nik">
+
+        <span>ID</span>
+        <input value="105171130648" id="uid">
+
+        <span>礼物ID(可空)</span>
+        <input value="" id="gid">
+        <div>
+            <span>内容</span>
+            <input style="width: 400px;" value="发送内容" id="ct">
+        </div>
+    </div>
+    <textarea style="margin-top: 20px; width: 500px;height: 500px;    font-family: ui-monospace;" id="msgcon">
+      {
+  "user_nickName": "成成",
+  "user_id": "105171130648",
+  "user_gender": "男",
+  "user_level": 0,
+  "user_levelImage": "http://p3-webcast.douyinpic.com/img/webcast/user_grade_level_v5_17.png~tplv-obj.image",
+  "user_avatar": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_f8711d5bc03513fe1d3def88d6d07384.jpeg?from=3067671334",
+  "user_isAdmin": false,
+  "user_fansLevel": 17,
+  "user_fansLightName": "荣誉等级17级勋章",
+  "msg_content": "成成:送给主播 1个人气票",
+  "isGift": true,
+  "gift_id": "3992",
+  "gift_name": "人气票",
+  "gift_number": 1,
+  "gift_image": "http://p6-webcast.douyinpic.com/img/webcast/e9b7db267d0501b8963d8000c091e123.png~tplv-obj.png",
+  "gift_diamondCount": 1,
+  "gift_describe": "送出人气票"
+}
+    </textarea>
+    <button id="send" onclick="sendmsg()">发送消息</button>
+    <button id="sendjson" onclick="sendmsgjson()">发送JSON消息</button>
+    <ul id="ul"></ul>
+    <script type="text/javascript">
+        ws = new WebSocket('ws://127.0.0.1:9527')
+
+        let dom = document.querySelector('#ul')
+        ws.onopen = function (e) {
+            console.log('打开')
+        }
+
+        function sendmsgjson() {
+            let b = document.querySelector('#msgcon').value
+            let tp = JSON.parse(b)
+            if (document.querySelector('#gid').value === '') {
+                b.isGift = false
+            }
+            console.log({
+                action: 'message',
+                message: b
+            })
+            ws.send(JSON.stringify({
+                action: 'message',
+                message: b
+            }))
+            let dom = document.querySelector('#ul')
+            let d = document.createElement('li')
+            d.innerHTML = '发送..' + new Date().toLocaleTimeString() + ' ->' + tp.msg_content
+            dom.append(d)
+        }
+
+        function sendmsg() {
+            let tep = {
+                "user_nickName": "成成",
+                "user_id": "105171130648",
+                "user_gender": "男",
+                "user_level": 0,
+                "user_levelImage": "http://p3-webcast.douyinpic.com/img/webcast/user_grade_level_v5_17.png~tplv-obj.image",
+                "user_avatar": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_f8711d5bc03513fe1d3def88d6d07384.jpeg?from=3067671334",
+                "user_isAdmin": false,
+                "user_fansLevel": 17,
+                "user_fansLightName": "荣誉等级17级勋章",
+                "msg_content": "成成:送给主播 1个人气票",
+                "isGift": true,
+                "gift_id": "3992",
+                "gift_name": "人气票",
+                "gift_number": 1,
+                "gift_image": "http://p6-webcast.douyinpic.com/img/webcast/e9b7db267d0501b8963d8000c091e123.png~tplv-obj.png",
+                "gift_diamondCount": 1,
+                "gift_describe": "送出人气票"
+            }
+            tep.msg_content = document.querySelector('#ct').value
+            tep.user_nickName = document.querySelector('#nik').value
+            tep.user_id = document.querySelector('#uid').value
+            tep.gift_id = document.querySelector('#gid').value || null
+            if (document.querySelector('#gid').value === '') {
+                tep.isGift = false
+            }
+            console.log({
+                action: 'message',
+                message: tep
+            })
+            ws.send(JSON.stringify({
+                action: 'message',
+                message: tep
+            }))
+            let dom = document.querySelector('#ul')
+            let d = document.createElement('li')
+            d.innerHTML = '发送..' + new Date().toLocaleTimeString() + ' ->' + tep.msg_content
+            dom.append(d)
+        }
+    </script>
+</body>
+
+</html>

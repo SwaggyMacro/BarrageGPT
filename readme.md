@@ -20,12 +20,10 @@
 
 ### 🤬Gripes
 ***
-**<font color="red">Gripes About TikTok Live Streaming Platform:</font>**
+**Gripes About `TikTok` Live Streaming Platform:**
 
 > 1. In order to go live from a computer, you are required to have a minimum of `1,000 followers`. If you choose not to go live from a computer, you won't be able to utilize OBS for streaming, and the method of capturing TikTok's streaming code through packet capture is no longer effective.
-
 > 2. Unfortunately, you cannot mute the microphone while streaming from a mobile device.
-
 > 3. I have made several attempts at live streaming. My initial plan was to showcase my personal PC's screen (which was running the project) by using a remote tool. However, TikTok unjustly and inexplicably banned my live stream on two separate occasions.
 
-**<font color="red">So! Fuck the Tiktok(Douyin)!</font>**
+**So! Fuck the Tiktok(Douyin)!**

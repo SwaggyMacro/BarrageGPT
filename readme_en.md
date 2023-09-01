@@ -10,12 +10,21 @@
 
 ### ❓How to use
 ***
-1. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey.
-2. Check the platform you want to live-stream on, and follow the readme below to run the corresponding script.
+1. Pull the project files from the repository
+   ```shell
+   git clone https://github.com/SwaggyMacro/BarrageGPT.git
+   ```
+2. Install the project's python dependencies
+   ```shell
+   pip install -r requirements.txt
+   ```
+3. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey. 
+4. Check the platform you want to live-stream on, and follow the readme below to run the corresponding script.
     - [Bilibili](./Readme/readme_bilibili.md)
     - [Huya](./Readme/readme_huya.md)
     - [TikTok(Douyin)](./Readme/readme_tiktok.md)
-3. Open OBS and select the project software window to start streaming.
+5. Open OBS and select the project software window to start streaming.
+
 ### 🖼️Screenshots
 ***
 #### `Pictures here:`

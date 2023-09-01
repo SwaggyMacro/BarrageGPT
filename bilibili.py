@@ -22,8 +22,9 @@ if len(sys.argv) > 1:
         TEST_ROOM_IDS.append(int(sys.argv[i]))
 else:
     TEST_ROOM_IDS = [
-        1498471
+        9519547
     ]
+    logger.warning("No room id specified, using default room id: 9519547")
 
 MAIN_WINDOW = MainWindowUI()
 LIVE_MSG_CONTENT = ""

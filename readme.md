@@ -18,12 +18,21 @@
 
 ### ❓如何使用
 ***
-1. 复制配置例子文件 `config.example.json` 为 `config.json` 然后修改其中的apikey为你自己的key。
-2. 以下几个平台的使用教程readme
+1. 拉取项目文件
+   ```shell
+   git clone https://github.com/SwaggyMacro/BarrageGPT.git
+   ```
+2. 安装项目依赖
+   ```shell
+   pip install -r requirements.txt
+   ```
+3. 复制配置例子文件 `config.example.json` 为 `config.json` 然后修改其中的apikey为你自己的key。 
+4. 以下几个平台的使用教程readme
     - [Bilibili](./Readme/readme_bilibili.md)
     - [Huya](./Readme/readme_huya.md)
     - [TikTok(Douyin)](./Readme/readme_tiktok.md)
-3. 打开OBS，然后截取本项目运行的软件进行推流。
+5. 打开OBS，然后截取本项目运行的软件进行推流。
+
 ### 🖼️截图
 ***
 #### `截图:`

@@ -40,8 +40,8 @@
 ![huya](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Pictures/huya.png)
 
 #### `录屏:`
-- huya: [Check the video](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/huya.mp4)
-- bilibili: [Check the video](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/bilibili.mp4)
+- huya: [查看视频](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/huya.mp4)
+- bilibili: [查看视频](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/bilibili.mp4)
 
 ### 🤬吐槽
 ***

@@ -1,4 +1,4 @@
-<div align=center><a href="readme_en.md">English</a> | <a href="readme.md">简体中文</a></div>
+<div align=center><a href="readme_en.md">🇺🇸English</a> | <a href="readme.md">🇨🇳简体中文</a></div>
 
 ### 🤖BarrageGPT
 ***

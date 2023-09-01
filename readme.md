@@ -1,4 +1,10 @@
-<div align=center><a href="readme_en.md">🇺🇸English</a> | <a href="readme.md">🇨🇳简体中文</a></div>
+<div align=center>
+   <img src="Resources/Images/logo.png" width="50px" height="50px" alt="logo"/>
+</div>
+<div align=center>
+   <a href="readme_en.md">🇺🇸English</a> | <a href="readme.md">🇨🇳简体中文</a>
+</div>
+
 
 ### 🤖BarrageGPT
 ***

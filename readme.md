@@ -1,44 +1,46 @@
+<div align=center><a href="readme_en.md">English</a> | <a href="readme.md">简体中文</a></div>
+
 ### 🤖BarrageGPT
 ***
-**Once I'm nearing completion of the project, I might plan to write a readme.md file.**
+**当我快完成这个项目的时候，我会完善这份readme。**
 
-### 🖥️Support platforms
+### 🖥️支持平台
 ***
-- [x] Bilibili
-- [x] Huya
-- [x] Douyin
+- [x] 哔哩哔哩直播
+- [x] 虎牙
+- [x] 抖音
 
-### ❓How to use
+### ❓如何使用
 ***
-1. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey.
-2. Check the platform you want to live-stream on, and follow the readme below to run the corresponding script.
+1. 复制配置例子文件 `config.example.json` 为 `config.json` 然后修改其中的apikey为你自己的key。
+2. 以下几个平台的使用教程readme
     - [Bilibili](./Readme/readme_bilibili.md)
     - [Huya](./Readme/readme_huya.md)
     - [TikTok(Douyin)](./Readme/readme_tiktok.md)
-3. Open OBS and select the project software window to start streaming.
-### 🖼️Screenshots
+3. 打开OBS，然后截取本项目运行的软件进行推流。
+### 🖼️截图
 ***
-#### `Pictures here:`
+#### `截图:`
 ![bilibili](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Pictures/bilibili.png)
 ![huya](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Pictures/huya.png)
 
-#### `Videos here:`
+#### `录屏:`
 - huya: [Check the video](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/huya.mp4)
 - bilibili: [Check the video](https://raw.githubusercontent.com/SwaggyMacro/BarrageGPT/master/Screenshots/Videos/bilibili.mp4)
 
-### 🤬Gripes
+### 🤬吐槽
 ***
-**Gripes About `TikTok` Live Streaming Platform:**
+**关于抖音平台直播:**
 
-1. In order to go live from a computer, you are required to have a minimum of `1,000 followers`. If you choose not to go live from a computer, you won't be able to utilize OBS for streaming, and the method of capturing TikTok's streaming code through packet capture is no longer effective.
-2. Unfortunately, you cannot mute the microphone while streaming from a mobile device.
-3. I have made several attempts at live-streaming. My initial plan was to showcase my personal PC's screen (which was running the project) by using a remote tool. However, TikTok unjustly and inexplicably banned my live stream on two separate occasions.
+1. 首先，你必须要有1000粉丝才能在电脑上直播。如果你不在电脑上直播，那么你就不能使用OBS推流，并且通过抓包获取抖音直播推流码的方法也不再有效。
+2. 手机直播的时候，你不能静音麦克风。
+3. 在我尝试了几次抖音直播后，我原本想用手机录屏直播，然后通过远程工具展示我的电脑屏幕（运行本项目的电脑），但是抖音不知道为什么连续两次无理由的封禁了我的直播（第一次我甚至都没有开播成功，只是在尝试开播，第二次我刚直播出项目的画面就被封禁了）。
 
-So, that's why there are no `TikTok(Douyin)` screenshots in this project.  
-**Fuck the TikTok(Douyin)!**
+所以这就是为什么本项目中没有抖音平台的使用截图。  
+**脑瘫抖音**
 
-### 📋TODO
+### 📋任务列表
 ***
-- [ ] Gift-triggered AI Q&A (Only users who have sent gifts are allowed to AI Q&A by sending barrage, such as starting an AI Q&A session with a rose gift.)
-- [ ] Virtual AI Characters (A virtual character displayed alongside and capable of providing voice-read responses.)
-- [ ] Third-party intermediary API for OpenAI
+- [ ] 礼物触发AI问答（只有送礼物的用户才能通过发送弹幕进行AI问答，比如送玫瑰花礼物可以开启AI问答）
+- [ ] 虚拟AI角色（在旁边显示的虚拟角色，可以进行语音朗读回复）
+- [ ] 第三方中转OpenAI API

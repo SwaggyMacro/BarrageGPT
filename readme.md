@@ -8,6 +8,14 @@
 - [x] Huya
 - [x] Douyin
 
+### ❓How to use
+***
+1. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey.
+2. Check the platform you want to live-stream on, and follow the readme below to run the corresponding script.
+    - [Bilibili](./Readme/readme_bilibili.md)
+    - [Huya](./Readme/readme_huya.md)
+    - [TikTok(Douyin)](./Readme/readme_tiktok.md)
+3. Open OBS and select the project software window to start streaming.
 ### 🖼️Screenshots
 ***
 #### `Pictures here:`
@@ -33,3 +41,4 @@ So, that's why there are no `TikTok(Douyin)` screenshots in this project.
 ***
 - [ ] Gift-triggered AI Q&A (Only users who have sent gifts are allowed to AI Q&A by sending barrage, such as starting an AI Q&A session with a rose gift.)
 - [ ] Virtual AI Characters (A virtual character displayed alongside and capable of providing voice-read responses.)
+- [ ] Third-party intermediary API for OpenAI

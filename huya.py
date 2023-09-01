@@ -1,5 +1,3 @@
-from sqlalchemy.util import asyncio
-
 from Barrage import Huya
 from Model.Huya import BarrageMessage
 import asyncio

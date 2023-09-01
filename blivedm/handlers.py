@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 from typing import *
-
+from loguru import logger
 from . import client as client_
 from . import models
 
@@ -10,7 +10,8 @@ __all__ = (
     'BaseHandler',
 )
 
-logger = logging.getLogger('blivedm')
+# logger = logging.getLogger('blivedm')
+
 
 IGNORED_CMDS = (
     'COMBO_SEND',
@@ -111,7 +112,7 @@ class BaseHandler(HandlerInterface):
         if cmd not in self._CMD_CALLBACK_DICT:
             # 只有第一次遇到未知cmd时打日志
             if cmd not in logged_unknown_cmds:
-                logger.warning('room=%d unknown cmd=%s, command=%s', client.room_id, cmd, command)
+                logger.warning(f'room={client.room_id} unknown cmd={cmd}, command={command}')
                 logged_unknown_cmds.add(cmd)
             return
 

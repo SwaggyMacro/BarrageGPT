@@ -9,16 +9,22 @@ import requests
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap, QImage, QPainter, QBrush, QColor
+from loguru import logger
 
 import blivedm
 from GPT import Chat
 from Utils import Config, Common
 from Windows import MainWindowUI
 
-# 直播间ID的取值看直播间URL
-TEST_ROOM_IDS = [
-    9519547
-]
+# TEST_ROOM_IDS from command line arguments
+if len(sys.argv) > 1:
+    TEST_ROOM_IDS = []
+    for i in range(1, len(sys.argv)):
+        TEST_ROOM_IDS.append(int(sys.argv[i]))
+else:
+    TEST_ROOM_IDS = [
+        26218212
+    ]
 
 MAIN_WINDOW = MainWindowUI()
 LIVE_MSG_CONTENT = ""
@@ -63,19 +69,19 @@ class MyHandler(blivedm.BaseHandler):
 
     async def _on_danmaku(self, client: blivedm.BLiveClient, message: blivedm.DanmakuMessage):
         global PENDING_LIST
-        print(f'[{client.room_id}] {message.uname}：{message.msg}')
+        logger.info(f"[{client.room_id}] {message.uname}: {message.msg}")
         PENDING_LIST.append(message)
         MAIN_WINDOW.update_wait_list_signal.emit(PENDING_LIST)
 
     async def _on_gift(self, client: blivedm.BLiveClient, message: blivedm.GiftMessage):
-        print(f'[{client.room_id}] {message.uname} 赠送{message.gift_name}x{message.num}'
-              f' （{message.coin_type}瓜子x{message.total_coin}）')
+        logger.info(f"[{client.room_id}] {message.uname} 送出了 {message.gift_name} x {message.num}"
+                    f"（{message.coin_type}瓜子x{message.total_coin}）")
 
     async def _on_buy_guard(self, client: blivedm.BLiveClient, message: blivedm.GuardBuyMessage):
-        print(f'[{client.room_id}] {message.username} 购买{message.gift_name}')
+        logger.info(f"[{client.room_id}] {message.username} 购买了 {message.gift_name}")
 
     async def _on_super_chat(self, client: blivedm.BLiveClient, message: blivedm.SuperChatMessage):
-        print(f'[{client.room_id}] 醒目留言 ¥{message.price} {message.uname}：{message.message}')
+        logger.info(f"[{client.room_id}]  ¥{message.price} {message.uname} 超级留言：{message.message} ")
 
 
 def update_answer_msg(msg: str):
@@ -111,6 +117,7 @@ def process_pending_list():
                 MAIN_WINDOW.update_answer_signal.emit(answer_content)
             MAIN_WINDOW.update_wait_list_signal.emit(PENDING_LIST)
             gc.collect()
+
 
 def process_wait_list(wait_list: list):
     # convert list to string and update

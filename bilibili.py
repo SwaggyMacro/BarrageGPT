@@ -7,11 +7,10 @@ import gc
 
 import requests
 from PyQt5 import QtWidgets
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPixmap, QImage, QPainter, QBrush, QColor
+from PyQt5.QtGui import QPixmap
 from loguru import logger
 
-import blivedm
+from Barrage import blivedm
 from GPT import Chat
 from Utils import Config, Common
 from Windows import MainWindowUI
@@ -23,7 +22,7 @@ if len(sys.argv) > 1:
         TEST_ROOM_IDS.append(int(sys.argv[i]))
 else:
     TEST_ROOM_IDS = [
-        26218212
+        1498471
     ]
 
 MAIN_WINDOW = MainWindowUI()

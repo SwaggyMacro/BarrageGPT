@@ -1,7 +1,7 @@
 # extends UI_MainWindow
 from PyQt5.QtCore import pyqtSignal
 
-import blivedm
+from Barrage import blivedm
 from Model import Huya
 from Model.TikTok import BarrageMessage
 from .MainWindow_UI import Ui_MainWindow

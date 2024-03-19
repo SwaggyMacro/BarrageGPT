@@ -52,4 +52,4 @@ So, that's why there are no `TikTok(Douyin)` screenshots in this project.
 ***
 - [ ] Gift-triggered AI Q&A (Only users who have sent gifts are allowed to AI Q&A by sending barrage, such as starting an AI Q&A session with a rose gift.)
 - [ ] Virtual AI Characters (A virtual character displayed alongside and capable of providing voice-read responses.)
-- [ ] Third-party intermediary API for OpenAI
+- [x] Third-party intermediary API for OpenAI

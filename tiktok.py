@@ -83,8 +83,10 @@ def run_main_window():
 
 if __name__ == "__main__":
     # set proxy for openai API
-    os.environ["HTTP_PROXY"] = "http://127.0.0.1:10801"
-    os.environ["HTTPS_PROXY"] = "http://127.0.0.1:10801"
+    if Config().is_proxy_on():
+        os.environ["HTTP_PROXY"] = Config().get_proxy_url()
+        os.environ["HTTPS_PROXY"] = Config().get_proxy_url()
+
 
     # thread run main window
     thread_main_window = threading.Thread(target=run_main_window)

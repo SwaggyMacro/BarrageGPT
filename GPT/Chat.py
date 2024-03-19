@@ -3,12 +3,17 @@ import time
 
 import openai
 
+from Utils import Config
+
 
 class Chat:
 
     def __init__(self, api_key: str):
         self.api_key = api_key
         openai.api_key = api_key
+
+        if Config().is_api_proxy_on():
+            openai.api_base = Config().get_api_proxy_url()
 
     def chat(self, question: str, role: str = None, stream: bool = False, model: str = 'gpt-3.5-turbo') -> str:
         return stream and self.__chat_stream(question, model, role) or self.__chat_no_stream(question, model, role)

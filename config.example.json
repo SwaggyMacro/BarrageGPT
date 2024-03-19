@@ -1,5 +1,13 @@
 {
   "api_keys": [
     "api key from openai."
-  ]
+  ],
+  "api_proxy": {
+    "url": "api proxy url",
+    "on": true
+  },
+  "proxy": {
+    "url": "http://127.0.0.1:10801",
+    "on": false
+  }
 }

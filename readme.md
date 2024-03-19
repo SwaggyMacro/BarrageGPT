@@ -26,7 +26,9 @@
    ```shell
    pip install -r requirements.txt
    ```
-3. 复制配置例子文件 `config.example.json` 为 `config.json` 然后修改其中的apikey为你自己的key。 
+3. 复制配置例子文件 `config.example.json` 为 `config.json` 然后修改其中的apikey为你自己的key。
+    - 其中`api_proxy`用于填入第三方中转OpenAI API的地址，如果没有则在`on`属性填入false即可。
+    - `proxy`则为代理地址（http代理），如果不需要则在`on`属性填入false即可。
 4. 以下几个平台的使用教程readme
     - [Bilibili](./Readme/readme_bilibili.md)
     - [Huya](./Readme/readme_huya.md)

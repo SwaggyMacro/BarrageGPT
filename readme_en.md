@@ -18,7 +18,9 @@
    ```shell
    pip install -r requirements.txt
    ```
-3. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey. 
+3. Copy the `config.example.json` to `config.json` and modify the configuration file to configure the corresponding apikey.
+    - The `api_proxy` is used to fill in the address of the third-party intermediary OpenAI API. If there is no such address, fill in `false` in the `on` attribute.
+    - `proxy` is the proxy address (http proxy). If you don't need it, fill in `false` in the `on` attribute.
 4. Check the platform you want to live-stream on, and follow the readme below to run the corresponding script.
     - [Bilibili](./Readme/readme_bilibili.md)
     - [Huya](./Readme/readme_huya.md)

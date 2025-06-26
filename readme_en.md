@@ -55,7 +55,7 @@ So, that's why there are no `TikTok(Douyin)` screenshots in this project.
 - [x] Third-party intermediary API for OpenAI
 
 
-### EdgeOne
+## Sponsor
 CDN acceleration and security protection for this project are sponsored by Tencent EdgeOne.  
 [Best Asian CDN, Edge, and Secure Solutions - Tencent EdgeOne](https://edgeone.ai/?from=github)  
 ![EdgeOne](https://edgeone.ai/_next/static/media/headLogo.daeb48ad.png?auto=format&fit=max&w=256)

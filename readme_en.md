@@ -53,3 +53,9 @@ So, that's why there are no `TikTok(Douyin)` screenshots in this project.
 - [ ] Gift-triggered AI Q&A (Only users who have sent gifts are allowed to AI Q&A by sending barrage, such as starting an AI Q&A session with a rose gift.)
 - [ ] Virtual AI Characters (A virtual character displayed alongside and capable of providing voice-read responses.)
 - [x] Third-party intermediary API for OpenAI
+
+
+### EdgeOne
+CDN acceleration and security protection for this project are sponsored by Tencent EdgeOne.  
+[Best Asian CDN, Edge, and Secure Solutions - Tencent EdgeOne](https://edgeone.ai/?from=github)  
+![EdgeOne](https://edgeone.ai/_next/static/media/headLogo.daeb48ad.png?auto=format&fit=max&w=256)

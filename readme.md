@@ -62,3 +62,9 @@
 - [ ] 礼物触发AI问答（只有送礼物的用户才能通过发送弹幕进行AI问答，比如送玫瑰花礼物可以开启AI问答）
 - [ ] 虚拟AI角色（在旁边显示的虚拟角色，可以进行语音朗读回复）
 - [x] 第三方中转OpenAI API
+  
+  
+### EdgeOne
+该项目的CDN加速和安全防护由腾讯EdgeOne赞助。  
+[Best Asian CDN, Edge, and Secure Solutions - Tencent EdgeOne](https://edgeone.ai/?from=github)  
+![EdgeOne](https://edgeone.ai/_next/static/media/headLogo.daeb48ad.png?auto=format&fit=max&w=256)
